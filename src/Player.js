@@ -22,12 +22,12 @@ const useAudio = url => {
   return [playing, toggle];
 };
 
-const Player = ({ url }) => {
+const Player = ({ name, url }) => {
   const [playing, toggle] = useAudio(url);
 
   return (
     <div>
-      <button className="px-4 py-2 bg-blue-500 rounded-lg text-blue-100 hover:bg-blue-600 hover:text-blue-200 focus:outline-none" onClick={toggle}>{playing ? "Pause" : "Play"}</button>
+      <button className="px-4 py-2 bg-blue-500 rounded-lg text-blue-100 hover:bg-blue-600 hover:text-blue-200 focus:outline-none" onClick={toggle}>{playing ? "Pause" : "Play"} {name}</button>
     </div>
   );
 };
