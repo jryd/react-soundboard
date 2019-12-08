@@ -10,6 +10,10 @@ const files = [
   {
     name: 'One Eternity Later',
     url: '/audio/one-eternity-later.mp3'
+  },
+  {
+    name: 'Nek Minnit',
+    url: '/audio/nek-minnit.mp3'
   }
 ];
 
