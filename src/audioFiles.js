@@ -22,6 +22,14 @@ const files = [
   {
     name: 'Oh no you didn\'t',
     url: '/audio/oh-no-you-didnt.mp3'
+  },
+  {
+    name: 'Sad Trombone',
+    url: '/audio/sad-trombone.mp3'
+  },
+  {
+    name: 'Yea Boiiiiiii',
+    url: '/audio/yea-boi.mp3'
   }
 ];
 
