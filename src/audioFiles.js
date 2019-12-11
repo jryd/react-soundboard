@@ -33,7 +33,7 @@ const files = [
   },
   {
     name: 'Trollolol',
-    url: '/audio/trollolol.mp3.mp3'
+    url: '/audio/trollolol.mp3'
   }
 ];
 
