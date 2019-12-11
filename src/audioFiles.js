@@ -30,6 +30,10 @@ const files = [
   {
     name: 'Yea Boiiiiiii',
     url: '/audio/yea-boi.mp3'
+  },
+  {
+    name: 'Trollolol',
+    url: '/audio/trollolol.mp3.mp3'
   }
 ];
 
