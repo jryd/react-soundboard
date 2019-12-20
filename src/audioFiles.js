@@ -38,6 +38,10 @@ const files = [
   {
     name: 'Wow',
     url: '/audio/wow.mp3'
+  },
+  {
+    name: 'How bout dat',
+    url: '/audio/how-bout-dat.mp3'
   }
 ];
 
