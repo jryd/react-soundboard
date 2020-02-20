@@ -46,7 +46,7 @@ const files = [
   {
     name: 'No No No No',
     url: '/audio/no-no-no.mp3'
-  }
+  },
 ];
 
 export default files;
