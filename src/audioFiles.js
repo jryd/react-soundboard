@@ -42,7 +42,11 @@ const files = [
   {
     name: 'How bout dat',
     url: '/audio/how-bout-dat.mp3'
-  }
+  },
+  {
+    name: 'No No No No',
+    url: '/audio/no-no-no.mp3'
+  },
 ];
 
 export default files;
