@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const useAudio = url => {
   const [audio] = useState(new Audio(url));
+  // eslint-disable-next-line
   const [playing, setPlaying] = useState(false);
 
   const toggle = () => setPlaying(!playing);
@@ -9,6 +10,7 @@ const useAudio = url => {
   useEffect(() => {
       playing ? audio.play() : audio.pause();
     },
+    // eslint-disable-next-line
     [playing]
   );
 
@@ -17,6 +19,7 @@ const useAudio = url => {
     return () => {
       audio.removeEventListener('ended', () => setPlaying(false));
     };
+    // eslint-disable-next-line
   }, []);
 
   return [playing, toggle];
