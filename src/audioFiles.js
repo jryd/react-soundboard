@@ -42,6 +42,10 @@ const files = [
   {
     name: 'How bout dat',
     url: '/audio/how-bout-dat.mp3'
+  },
+  {
+    name: 'Airhorn',
+    url: '/audio/airhorn.mp3'
   }
 ];
 
