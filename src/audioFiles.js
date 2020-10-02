@@ -50,6 +50,10 @@ const files = [
   {
     name: 'Airhorn',
     url: '/audio/airhorn.mp3'
+  },
+  {
+    name: 'I eat da fish',
+    url: '/audio/i-eat-the-fish.mp3'
   }
 ];
 
